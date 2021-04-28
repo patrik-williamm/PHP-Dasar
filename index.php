@@ -63,8 +63,9 @@
 
    <!-- jumbotron -->
    <!-- php code -->
-   <?php 
-      $img = view("SELECT * FROM pw_users")[0];
+   <?php
+      $name = $_GET['username'];
+      $img = view("SELECT * FROM pw_users WHERE username='$name'");
    ?>
    <!-- last php code -->
    <div class="ok3 bg-secondary mt-3">
