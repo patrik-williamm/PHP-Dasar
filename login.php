@@ -69,7 +69,7 @@
 			 			<a href="j" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
 			 		</li>
 			 	</ul>
-			    <button class="btn btn-outline-success btn-lg" type="submit" ><a href="Join.php">Join Now!</a></button>
+			    <button class="btn btn-outline-success btn-lg" type="submit" ><a href="join.php">Join Now!</a></button>
 			</form>
     		</div>
   		</div>
